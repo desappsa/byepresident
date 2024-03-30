@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuera Tony</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fuera Petro</h1>
+        <p>¡Conteo regresivo para el fin del mandato del Presidente Gustavo Petro!</p>
+    </header>
+    <main>
+        <div id="countdown">
+            <div>
+                <span id="years">00</span>
+                <span>Años</span>
+            </div>
+            <div>
+                <span id="months">00</span>
+                <span>Meses</span>
+            </div>
+            <div>
+                <span id="days">00</span>
+                <span>Días</span>
+            </div>
+            <div>
+                <span id="hours">00</span>
+                <span>Horas</span>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <span>Minutos</span>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <span>Segundos</span>
+            </div>
+        </div>
+        <div id="donate">
+            <button onclick="donate()">¡Dona ahora!</button>
+            <p>Ayuda a mantener este sitio web.</p>
+        </div>
+        <div id="feedback">
+            <h2>¡Déjanos tu comentario!</h2>
+            <textarea id="comment" placeholder="Escribe aquí tu comentario..." rows="4"></textarea>
+            <button onclick="submitComment()">Enviar</button>
+        </div>
+    </main>
+ <main>
+    <div id="countdown">
+        <!-- Contador regresivo -->
+    </div>
+    <div id="donate">
+        <!-- Botón de donación -->
+    </div>
+    <div id="feedback">
+        <!-- Formulario de comentarios -->
+    </div>
+    <div id="subscription">
+        <button onclick="subscribe()">¡Suscríbete para actualizaciones diarias por $9.9!</button>
+        <p>Recibirás actualizaciones diarias del tiempo restante en el mandato de Petro en tu correo electrónico.</p>
+        <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2024 FueraPetro.com | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
